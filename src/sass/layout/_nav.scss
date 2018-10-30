@@ -129,12 +129,16 @@ nav {
 
 @include breakpoint(0, 360) {
   header  {
-    nav .hamburger {
+    nav .hamburger, nav label {
       top: 0.25rem;
       right: 0.25rem;
     }
     h1 {
       padding-top: 2rem;
+    }
+    ul {
+      top: 6.2em;
+      transform: translateY(calc(-100% - 6.2rem));
     }
   }
 }
