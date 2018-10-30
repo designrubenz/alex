@@ -4,6 +4,8 @@ footer {
   background: $brandblue;
   color: white;
   font-size: $medium;
+  word-break: break-all;
+
   .footerlayout {
     display: flex;
     justify-content: space-between;
