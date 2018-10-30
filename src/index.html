@@ -52,8 +52,16 @@
         <header>
             <h1><a href='#'>Alex Mayer</a></h1>
             <nav>
+                <input type="checkbox" id="button" />
+                <label for="button" onclick></label>
+
+                <button class="hamburger hamburger--collapse" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
                 <ul>
-                    <li><a href='#'>Start</a></li>
+                    <li class='current-menu-item'><a href='#'>Start</a></li>
                     <li><a href='#'>Leistungen</a></li>
                     <li><a href='#'>Blog</a></li>
                     <li><a href='#'>Über mich</a></li>
@@ -101,6 +109,7 @@
             </section>
 
             <section id='referenzen'>
+                <h2>Referenzen</h2>
                 <article> 
                     <img src='<%= require("./images/dina-meyer.jpg") %>' alt='Tina Ubuntu'>
                     <p><cite>Tina Ubuntu<br>CEO headless Ltd.</cite></p>
